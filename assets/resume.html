@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Shukla - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #6366f1;
+        }
+        
+        h1 {
+            color: #6366f1;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+        }
+        
+        .contact-info a {
+            color: #6366f1;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        h2 {
+            color: #6366f1;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #6366f1;
+        }
+        
+        .skill-category h3 {
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .skill-category li {
+            padding: 4px 0;
+            color: #666;
+        }
+        
+        .skill-category li:before {
+            content: "▹ ";
+            color: #6366f1;
+            font-weight: bold;
+        }
+        
+        .experience-item, .project-item {
+            margin-bottom: 25px;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+        }
+        
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .company {
+            color: #6366f1;
+            font-weight: 500;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .description {
+            color: #555;
+            margin-top: 8px;
+            padding-left: 15px;
+        }
+        
+        .description li {
+            margin-bottom: 5px;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            .header {
+                margin-bottom: 20px;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PRIYANSHU SHUKLA</h1>
+        <p class="tagline">Full-Stack Developer | Data Analyst | Stock Market Expert</p>
+        <div class="contact-info">
+            <span>📧 <a href="mailto:shuklapriyanshu20@gmail.com">shuklapriyanshu20@gmail.com</a></span>
+            <span>💼 <a href="https://www.linkedin.com/in/priyanshu-shukla-017ba42ba">LinkedIn</a></span>
+            <span>🐙 <a href="https://github.com/shuklapriyanshu20">GitHub</a></span>
+            <span>📸 <a href="https://www.instagram.com/shuklapriyanshu20">Instagram</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💼 PROFESSIONAL SUMMARY</h2>
+        <p style="color: #555;">
+            Versatile technologist with expertise in full-stack web development, data analysis, and financial market trading. 
+            Proven ability to build scalable web applications, extract actionable insights from complex datasets, and develop 
+            algorithmic trading strategies using Pine Script. Strong problem-solving skills with a focus on creating data-driven 
+            solutions that deliver measurable business value.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ TECHNICAL SKILLS</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>React.js, Node.js</li>
+                    <li>Responsive Design</li>
+                    <li>RESTful APIs</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Data Analysis</h3>
+                <ul>
+                    <li>Python (Pandas, NumPy)</li>
+                    <li>SQL & Databases</li>
+                    <li>Data Visualization</li>
+                    <li>Statistical Analysis</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Trading & Finance</h3>
+                <ul>
+                    <li>Pine Script</li>
+                    <li>TradingView</li>
+                    <li>Technical Analysis</li>
+                    <li>Algorithmic Trading</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Jupyter Notebook</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💻 PROFESSIONAL EXPERIENCE</h2>
+        
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Full-Stack Developer</div>
+                    <div class="company">Freelance / Personal Projects</div>
+                </div>
+                <div class="date">2020 - Present</div>
+            </div>
+            <ul class="description">
+                <li>Developed responsive web applications using modern JavaScript frameworks and libraries</li>
+                <li>Implemented RESTful APIs and integrated third-party services</li>
+                <li>Optimized application performance and ensured cross-browser compatibility</li>
+                <li>Collaborated with clients to understand requirements and deliver custom solutions</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Data Analyst</div>
+                    <div class="company">Independent Consultant</div>
+                </div>
+                <div class="date">2021 - Present</div>
+            </div>
+            <ul class="description">
+                <li>Analyzed complex datasets using Python and SQL to extract actionable business insights</li>
+                <li>Created interactive dashboards and data visualizations for stakeholder presentations</li>
+                <li>Developed predictive models and performed statistical analysis</li>
+                <li>Automated data processing workflows to improve efficiency</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Trading Strategy Developer</div>
+                    <div class="company">Personal Trading & Research</div>
+                </div>
+                <div class="date">2019 - Present</div>
+            </div>
+            <ul class="description">
+                <li>Developed custom Pine Script indicators and strategies for TradingView platform</li>
+                <li>Conducted technical analysis and backtested trading algorithms</li>
+                <li>Analyzed market trends and identified profitable trading opportunities</li>
+                <li>Managed personal portfolio with data-driven decision making</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚀 KEY PROJECTS</h2>
+        
+        <div class="project-item">
+            <div class="experience-header">
+                <div class="job-title">Portfolio Website with WebGL</div>
+                <div class="date">2025</div>
+            </div>
+            <ul class="description">
+                <li>Built high-performance portfolio with Three.js 3D particle systems and glassmorphism effects</li>
+                <li>Implemented responsive design with advanced CSS animations and interactions</li>
+                <li>Optimized for performance across all devices and screen sizes</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="experience-header">
+                <div class="job-title">Pine Script Trading Indicators</div>
+                <div class="date">2022 - 2025</div>
+            </div>
+            <ul class="description">
+                <li>Created custom technical indicators for stock market analysis</li>
+                <li>Developed automated trading strategies with backtesting capabilities</li>
+                <li>Published indicators on TradingView with positive user feedback</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="experience-header">
+                <div class="job-title">Data Analytics Dashboard</div>
+                <div class="date">2023</div>
+            </div>
+            <ul class="description">
+                <li>Built interactive dashboard for visualizing complex datasets</li>
+                <li>Integrated multiple data sources and automated report generation</li>
+                <li>Implemented real-time data updates and filtering capabilities</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎓 EDUCATION & CERTIFICATIONS</h2>
+        
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Bachelor's Degree in Computer Science / Technology</div>
+                    <div class="company">University Name</div>
+                </div>
+                <div class="date">Year</div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Certifications</div>
+            <ul class="description">
+                <li>Web Development Bootcamp</li>
+                <li>Data Analysis with Python</li>
+                <li>Technical Analysis & Trading</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🌟 INTERESTS</h2>
+        <p style="color: #555;">
+            Financial Markets • Algorithmic Trading • Data Visualization • Open Source Contribution • 
+            Web Technologies • Machine Learning • Trading Psychology
+        </p>
+    </div>
+</body>
+</html>

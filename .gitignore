@@ -1,0 +1,22 @@
+# Priyanshu Shukla - Portfolio
+
+Live Portfolio Website: [Your Render URL will be here]
+
+## Deployment on Render
+
+This static site is deployed on Render for free hosting.
+
+## Local Development
+
+```bash
+python -m http.server 8000
+```
+
+Then open http://localhost:8000
+
+## Tech Stack
+
+- HTML5, CSS3, JavaScript
+- Three.js for WebGL animations
+- Glassmorphism design
+- Fully responsive
